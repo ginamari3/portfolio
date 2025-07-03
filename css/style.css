@@ -483,6 +483,19 @@
      color: #000;
  }
 
+ .site-footer .button.alt {
+     margin-top: 2rem;
+     font-size: 0.9em;
+     background: none;
+     border: 1px solid #ccc;
+     color: #333;
+ }
+
+ .site-footer .button.alt:hover {
+     background: #eee;
+     color: #000;
+ }
+
  /* TOGGLE NAV */
 
  @media (max-width: 767px) {
