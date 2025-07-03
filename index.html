@@ -37,7 +37,7 @@
                 <ul>
                     <li><a class="scroll" href="#work">Work</a></li>
                     <li><a class="scroll" href="#about">About</a></li>
-                    <li><a class="scroll" href="#contact">Contact</a></li>
+                    <li><a class="scroll" href="#bottom">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -104,8 +104,16 @@
                 </div>
                 <div class="about-text">
                     <h2>About</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                    <a href="#" class="button">read more about me</a>
+                    <p>I’m an interface designer based in Honolulu, focused on making clean, engaging visual systems for
+                        digital experiences.</p>
+
+                    <div id="more-about" style="display: none;">
+                        <p>I’m currently enrolled in a design program and enjoy combining UI principles with playful
+                            visual styles. I’m passionate about thoughtful storytelling, web accessibility, and
+                            intuitive interactions. Outside of design, I enjoy running, baking, and gaming.</p>
+                    </div>
+
+                    <button class="button" onclick="toggleAbout()">Read more about me</button>
                 </div>
             </div>
         </section>
@@ -131,6 +139,23 @@
 
         <!--MAIN JS FILE-->
         <script src="js/script.js"></script>
+
+        <!-- JAVASCRIPT -->
+
+        <script>
+            function toggleAbout() {
+                const moreText = document.getElementById("more-about");
+                const btn = event.target;
+
+                if (moreText.style.display === "none") {
+                    moreText.style.display = "block";
+                    btn.textContent = "Read less";
+                } else {
+                    moreText.style.display = "none";
+                    btn.textContent = "Read more about me";
+                }
+            }
+        </script>
 
 </body>
 

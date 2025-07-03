@@ -326,11 +326,13 @@
 
 
  /* SITE STRUCTURE */
-
+ html {
+     scroll-behavior: smooth;
+ }
 
  /* SITE HEADER */
  .site-header {
-     padding: 1em 0;
+     padding: .25em 0;
  }
 
 
