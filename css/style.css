@@ -99,6 +99,10 @@
      max-width: 38em;
  }
 
+ .text-centered {
+     text-align: center;
+ }
+
  /* LINES */
  a {
      color: rgba(0, 0, 102, .8);
