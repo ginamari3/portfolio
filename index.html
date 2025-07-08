@@ -67,91 +67,117 @@
         <section id="work">
             <div class="container">
                 <h2 class="section-title">Work</h2>
+                <div class="projects-grid-overlay">
 
-                <div class="project-block">
-                    <div class="project-text">
-                        <h3>Animation Logo</h3>
-                        <p>Animated brand identity created using After Effects to explore motion in logos.</p>
-                    </div>
-                    <div class="project-image">
-                        <img src="img/animation-logo.jpg" alt="Animation Logo project">
-                    </div>
-                </div>
-
-                <div class="project-block reverse">
-                    <div class="project-image">
-                        <img src="img/tourist-logo.jpg" alt="Tourist Logo project">
-                    </div>
-                    <div class="project-text">
-                        <h3>Tourist Logo</h3>
-                        <p>A travel-inspired logo design for a fictional tourism brand, focusing on simplicity and
-                            exploration.</p>
-                    </div>
-                </div>
-
-                <!-- END CONTAINER -->
-
-                <section id="about">
-                    <div class="container about-flex">
-                        <div class="about-img">
-                            <img src="img/gina-placeholder1x1.jpg" alt="Gina Triplett">
-                        </div>
-                        <div class="about-text">
-                            <h2>About</h2>
-                            <p>I’m an interface designer based in Honolulu, focused on making clean, engaging visual
-                                systems for
-                                digital experiences.</p>
-
-                            <div id="more-about" style="display: none;">
-                                <p>I’m currently enrolled in a design program and enjoy combining UI principles with
-                                    playful
-                                    visual styles. I’m passionate about thoughtful storytelling, web accessibility, and
-                                    intuitive interactions. Outside of design, I enjoy running, baking, and gaming.</p>
-                            </div>
-
-                            <button class="button" onclick="toggleAbout()">Read more about me</button>
+                    <div class="project-tile">
+                        <img src="img/animation-logo.jpg" alt="Animation Logo">
+                        <div class="overlay">
+                            <h3>Animation Logo</h3>
                         </div>
                     </div>
-                </section>
 
-                <!-- END CONTAINER -->
-
-                <footer id="site-footer" class="site-footer">
-                    <div class="container text-centered">
-                        <h2>gina triplett</h2>
-                        <p><strong>Let’s be friends!</strong></p>
-                        <ul class="footer-nav">
-                            <li><a href="https://www.linkedin.com/in/gina-marie-triplett/">LinkedIn</a></li>
-                            <li><a href="mailto:ginamarietriplett@gmail.com">Email</a></li>
-                            <li><a href="#">Resume</a></li>
-                        </ul>
+                    <div class="project-tile">
+                        <img src="img/tourist-logo.jpg" alt="Tourist Logo">
+                        <div class="overlay">
+                            <h3>Tourist Logo</h3>
+                        </div>
                     </div>
-                </footer>
 
-                <!-- END CONTAINER -->
+                    <div class="project-tile">
+                        <img src="img/vaseline-logo.jpg" alt="Vaseline Logo">
+                        <div class="overlay">
+                            <h3>Vaseline Logo</h3>
+                        </div>
+                    </div>
 
-                <!--SCROLL JS FILE-->
-                <script src="js/scroll.js"></script>
+                    <div class="project-tile">
+                        <img src="img/olympic-symbols.jpg" alt="Olympic Symbols Logo">
+                        <div class="overlay">
+                            <h3>Olympic Symbols Logo</h3>
+                        </div>
+                    </div>
 
-                <!--MAIN JS FILE-->
-                <script src="js/script.js"></script>
+                    <div class="project-tile">
+                        <img src="img/corepower-redesign.jpg" alt="CorePower Website Redesign">
+                        <div class="overlay">
+                            <h3>CorePower Website Redesign</h3>
+                        </div>
+                    </div>
 
-                <!-- JAVASCRIPT -->
+                    <div class="project-tile">
+                        <img src="img/booking-redesign.jpg" alt="Booking.com Redesign">
+                        <div class="overlay">
+                            <h3>Booking.com Redesign</h3>
+                        </div>
+                    </div>
 
-                <script>
-                    function toggleAbout() {
-                        const moreText = document.getElementById("more-about");
-                        const btn = event.target;
+                </div>
+            </div>
+        </section>
 
-                        if (moreText.style.display === "none") {
-                            moreText.style.display = "block";
-                            btn.textContent = "Read less";
-                        } else {
-                            moreText.style.display = "none";
-                            btn.textContent = "Read more about me";
-                        }
-                    }
-                </script>
+        <!-- END CONTAINER -->
+
+        <section id="about">
+            <div class="container about-flex">
+                <div class="about-img">
+                    <img src="img/gina-placeholder1x1.jpg" alt="Gina Triplett">
+                </div>
+                <div class="about-text">
+                    <h2>About</h2>
+                    <p>I’m an interface designer based in Honolulu, focused on making clean, engaging visual
+                        systems for
+                        digital experiences.</p>
+
+                    <div id="more-about" style="display: none;">
+                        <p>I’m currently enrolled in a design program and enjoy combining UI principles with
+                            playful
+                            visual styles. I’m passionate about thoughtful storytelling, web accessibility, and
+                            intuitive interactions. Outside of design, I enjoy running, baking, and gaming.</p>
+                    </div>
+
+                    <button class="button" onclick="toggleAbout()">Read more about me</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- END CONTAINER -->
+
+        <footer id="site-footer" class="site-footer">
+            <div class="container text-centered">
+                <h2>gina triplett</h2>
+                <p><strong>Let’s be friends!</strong></p>
+                <ul class="footer-nav">
+                    <li><a href="https://www.linkedin.com/in/gina-marie-triplett/">LinkedIn</a></li>
+                    <li><a href="mailto:ginamarietriplett@gmail.com">Email</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- END CONTAINER -->
+
+        <!--SCROLL JS FILE-->
+        <script src="js/scroll.js"></script>
+
+        <!--MAIN JS FILE-->
+        <script src="js/script.js"></script>
+
+        <!-- JAVASCRIPT -->
+
+        <script>
+            function toggleAbout() {
+                const moreText = document.getElementById("more-about");
+                const btn = event.target;
+
+                if (moreText.style.display === "none") {
+                    moreText.style.display = "block";
+                    btn.textContent = "Read less";
+                } else {
+                    moreText.style.display = "none";
+                    btn.textContent = "Read more about me";
+                }
+            }
+        </script>
 
 </body>
 
