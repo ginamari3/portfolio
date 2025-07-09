@@ -36,6 +36,12 @@
      color: rgba(0, 0, 0, .8);
  }
 
+ body {
+     font-size: 1em;
+     /* 16px */
+     font-family: "Lato", sans-serif;
+ }
+
  /* HEADINGS */
  /*    Based on a Traditional Typographic Scale
     48, 36, 24, 21, 18, 16
@@ -157,6 +163,12 @@
  img {
      max-width: 100%;
      height: auto;
+ }
+
+ .responsive-img {
+     aspect-ratio: 16/9;
+     width: 100%;
+     object-fit: cover;
  }
 
  /* BUTTONS */
