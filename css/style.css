@@ -282,6 +282,9 @@
      margin-bottom: 4%;
  }
 
+ .row+.row {
+     margin-top: 3em;
+ }
 
  /* CAN ONLY WORK FOR TABLET OR HIGHER, NOT SMALL DEVICES */
  @media (min-width: 768px) {
@@ -630,6 +633,11 @@
      padding-top: 3em;
  }
 
+ .sticky-nav {
+     position: sticky;
+     top: 5rem;
+ }
+
  /* SUB PAGES */
 
  article {
@@ -737,4 +745,12 @@
      width: 100px;
      margin: .5em auto;
      border-bottom: 3px solid rgba(0, 0, 0, .2);
+ }
+
+ /* QUOTE */
+ .quote {
+     font-style: italic;
+     font-size: 1.25em;
+     margin: 1em 0;
+     text-align: center;
  }
