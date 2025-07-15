@@ -808,3 +808,14 @@
      border-radius: 8px;
      box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
  }
+
+ /* COREPOWER - USER PERSONAS IMAGES */
+ /* Add a class="persona" to each <img> or target the section */
+ .persona {
+     width: 250px;
+     /* or whatever size you want */
+     height: auto;
+     /* keep aspect ratio */
+     max-width: none;
+     /* stop the 100 % rule from shrinking it */
+ }
