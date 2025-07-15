@@ -1,4 +1,4 @@
-Gina's Portfolio
+# Gina's Portfolio
 
-Check out my work in progress
-tps://ginamari3.github.io/portfolio/
+Welcome to my design portfolio!  
+View the live site here: [https://ginamari3.github.io/portfolio/](https://ginamari3.github.io/portfolio/)
