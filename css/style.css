@@ -790,3 +790,21 @@
      width: 100%;
      height: 100%;
  }
+
+ /* COREPOWER - IMAGE GRID */
+ .side-by-side-images {
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     /* spacing between images */
+     flex-wrap: wrap;
+     /* wrap on small screens */
+     margin-top: 1.5rem;
+ }
+
+ .side-by-side-images img {
+     max-width: 100%;
+     height: auto;
+     border-radius: 8px;
+     box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+ }
