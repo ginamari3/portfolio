@@ -835,3 +835,17 @@
  .centered {
      text-align: center;
  }
+
+
+ .process-video {
+     width: 600px;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .hifi-video {
+     width: 600px;
+     max-width: 100%;
+     height: auto;
+     display: block;
+ }
