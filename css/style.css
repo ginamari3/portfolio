@@ -819,3 +819,19 @@
      max-width: none;
      /* stop the 100 % rule from shrinking it */
  }
+
+ /* Aether airlines */
+
+ .section-header {
+     text-align: center;
+     margin: 4rem 0 2rem;
+ }
+
+ .section-header .max-width {
+     max-width: 600px;
+     margin: 0 auto;
+ }
+
+ .centered {
+     text-align: center;
+ }
